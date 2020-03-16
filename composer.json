@@ -1,4 +1,6 @@
 {
+    "name":"CoronaVirusAPI",
+    "description":"An API to get updates for CoronaVirus Cases",
     "require": {
         "paquettg/php-html-parser": "^2.2"
     }
