@@ -14,7 +14,7 @@ function formatNums($string) {
 
 $dom = new Dom;
 $dom->loadFromUrl('https://www.worldometers.info/coronavirus/');
-$rows = $dom->find('#main_table_countries')->find('tbody')[0]->find('tr');
+$rows = $dom->find('#main_table_countries_today')->find('tbody')[0]->find('tr');
 
 $array = [];
 
